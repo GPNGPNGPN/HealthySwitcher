@@ -1,0 +1,81 @@
+.svg-arrow {
+    background: url("svg/sprite.css-a7835ef3.svg") 0 0 no-repeat;
+}
+
+.svg-arrow-dims {
+    width: 24px;
+    height: 21px;
+}
+
+.svg-clock {
+    background: url("svg/sprite.css-a7835ef3.svg") 0 52.5% no-repeat;
+}
+
+.svg-clock-dims {
+    width: 21px;
+    height: 20px;
+}
+
+.svg-commented {
+    background: url("svg/sprite.css-a7835ef3.svg") 45.65217391304348% 52.5% no-repeat;
+}
+
+.svg-commented-dims {
+    width: 20px;
+    height: 20px;
+}
+
+.svg-location {
+    background: url("svg/sprite.css-a7835ef3.svg") 41.666666666666664% 97.61904761904762% no-repeat;
+}
+
+.svg-location-dims {
+    width: 18px;
+    height: 18px;
+}
+
+.svg-phone {
+    background: url("svg/sprite.css-a7835ef3.svg") 79.16666666666667% 97.61904761904762% no-repeat;
+}
+
+.svg-phone-dims {
+    width: 18px;
+    height: 18px;
+}
+
+.svg-raiting-star_empty {
+    background: url("svg/sprite.css-a7835ef3.svg") 100% 0 no-repeat;
+}
+
+.svg-raiting-star_empty-dims {
+    width: 20px;
+    height: 19px;
+}
+
+.svg-raiting-star_full {
+    background: url("svg/sprite.css-a7835ef3.svg") 100% 46.34146341463415% no-repeat;
+}
+
+.svg-raiting-star_full-dims {
+    width: 20px;
+    height: 19px;
+}
+
+.svg-raiting-star_half {
+    background: url("svg/sprite.css-a7835ef3.svg") 0 100% no-repeat;
+}
+
+.svg-raiting-star_half-dims {
+    width: 20px;
+    height: 19px;
+}
+
+.svg-watched {
+    background: url("svg/sprite.css-a7835ef3.svg") 54.54545454545455% 0 no-repeat;
+}
+
+.svg-watched-dims {
+    width: 22px;
+    height: 16px;
+}
+

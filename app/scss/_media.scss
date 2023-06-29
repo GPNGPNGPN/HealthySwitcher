@@ -1,0 +1,249 @@
+@media screen and (max-width: 1200px) {
+    section .work__list {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(2, 255px);
+    }
+
+    section .dishes__cardlist {
+        grid-template-columns: repeat(2, 350px);
+    }
+
+    section .chefs__cardlist {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    section .recepies__post-list {
+        grid-template-columns: 540px;
+        grid-template-rows: 510px 510px;
+        justify-content: center;
+        justify-items: center;
+
+    }
+
+    section .social__list {
+        grid-template-columns: 350px;
+        grid-template-rows: repeat(3, 330px);
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    header.header {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header.header {
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 650px) {
+    section .chefs__cardlist {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 65px);
+    }
+
+    section .chefs-card {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section .social__card {
+        width: 100%;
+        height: auto;
+    }
+
+    section .social-card--instagram {
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width: 770px) {
+    .global-contact {
+        flex-direction: column;
+    }
+
+    .global-contact__item {
+        display: flex;
+        align-items: baseline;
+        padding-left: 40px;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+
+    .global-contact__img {
+        position: absolute;
+        left: 0;
+
+    }
+
+    div.global-contact__subtitle {
+        margin-left: 10px;
+    }
+
+    section .dishes__cardlist {
+        grid-template-columns: 350px;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        .header {
+            &__title {
+                font-size: 60px;
+            }
+        }
+    }
+
+    // section .recepies__post-list {
+    //     display: none;
+    // }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        .global-burger {
+            display: flex;
+        }
+
+        .header {
+
+            &-top {
+                &__logo--disabled {
+                    display: none;
+
+                }
+
+                &__nav {
+                    display: none;
+
+                    &--active {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    section .swiper-button-prev {
+        left: 3%;
+    }
+
+    section .swiper-button-next {
+        right: 3%;
+    }
+
+    section .work__list {
+        grid-template-columns: 1fr;
+    }
+
+    section .work-item {
+        width: 100%;
+        min-height: 150px;
+    }
+
+    section .work-item__descr {
+        max-width: 300px;
+    }
+
+    section .global__behind-title {
+        font-size: 80px;
+        top: -30px;
+    }
+
+    section .recepies__post-list {
+        grid-template-columns: 1fr;
+    }
+
+    section.recepies {
+        margin-bottom: 100px;
+    }
+
+    section .recepies-post {
+        width: 100%;
+        height: auto;
+    }
+
+    section .recepies__post-activelist {
+        width: 100%;
+    }
+
+    section .recepies__post-previewlist .recepies-post {
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    section .swiper-button-prev {
+        left: 15%;
+        bottom: 20px;
+    }
+
+    section .swiper-button-next {
+        right: 15%;
+        bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        .header {
+            &-main__title {
+                font-size: 60px;
+            }
+        }
+    }
+
+    section .swiper {
+        width: 100%;
+    }
+
+    section .global__behind-title {
+        font-size: 70px;
+        top: -20px;
+    }
+
+}
+
+
+@media screen and (max-width: 420px) {
+    section .global__behind-title {
+        font-size: 50px;
+        top: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+    section .recepies__post-previewlist .recepies-post__footer-inner--left,
+    section .recepies__post-previewlist .recepies-post__footer-inner--right {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        // align-content: center;
+        .recepies-post__watch-count,
+        .recepies-post__date {
+            margin: 0;
+        }
+
+        .recepies-post__title,
+        .recepies-post__watch-count {
+            margin-bottom: 8px;
+        }
+    }
+}

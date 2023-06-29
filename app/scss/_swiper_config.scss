@@ -1,0 +1,36 @@
+.swiper {
+    user-select: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #303030;
+    background-color: rgba(#303030, 0.5);
+    z-index: 33;
+    position: absolute;
+    top: auto;
+    bottom: 195px;
+    user-select: none;
+    &::after {
+        display: none;
+    }
+
+    img {
+        padding-top: 5px;
+    }
+}
+
+.swiper-button-prev {
+    left: 8%;
+}
+
+.swiper-button-next {
+    right: 8%;
+
+    img {
+        transform: rotate(180deg);
+    }
+}

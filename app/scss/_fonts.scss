@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeueCyr-Roman.eot');
+    src: local('HelveticaNeueCyr-Roman'),
+        url('HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeueCyr-Roman.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Roman.woff') format('woff'),
+        url('HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeueCyr-Medium.eot');
+    src: local('HelveticaNeueCyr-Medium'),
+        url('HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Medium.woff') format('woff'),
+        url('HelveticaNeueCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeueBoldCondensed.eot');
+    src: local('Helvetica Neue Condensed Bold'), local('HelveticaNeueBoldCondensed'),
+        url('HelveticaNeueBoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeueBoldCondensed.woff2') format('woff2'),
+        url('HelveticaNeueBoldCondensed.woff') format('woff'),
+        url('HelveticaNeueBoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeueBlackCondensed.eot');
+    src: local('Helvetica Neue Condensed Black'), local('HelveticaNeueBlackCondensed'),
+        url('HelveticaNeueBlackCondensed.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeueBlackCondensed.woff2') format('woff2'),
+        url('HelveticaNeueBlackCondensed.woff') format('woff'),
+        url('HelveticaNeueBlackCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'Helvetica Neue';
+//     src: url('HelveticaNeueCyr-Bold.eot');
+//     src: local('HelveticaNeueCyr-Bold'),
+//         url('HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+//         url('HelveticaNeueCyr-Bold.woff2') format('woff2'),
+//         url('HelveticaNeueCyr-Bold.woff') format('woff'),
+//         url('HelveticaNeueCyr-Bold.ttf') format('truetype');
+//     font-weight: bold;
+//     font-style: normal;
+// }
