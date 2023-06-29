@@ -459,12 +459,13 @@
 
             &::before {
                 background: url('../images/svg#watched') no-repeat;
+                background: url('../images/recepies/watched.png') no-repeat;
             }
         }
 
         &__comment-count {
             &::before {
-                background: url('../images/svg#commented') no-repeat;
+                background: url('../images/recepies/commented.png') no-repeat;
             }
         }
 
