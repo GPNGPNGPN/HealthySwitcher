@@ -458,13 +458,13 @@
             margin-right: 15px;
 
             &::before {
-                background: url('../images/svg#watched.svg') no-repeat;
+                background: url('../images/svg#watched') no-repeat;
             }
         }
 
         &__comment-count {
             &::before {
-                background: url('../images/svg#commented.svg') no-repeat;
+                background: url('../images/svg#commented') no-repeat;
             }
         }
 

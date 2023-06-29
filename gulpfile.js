@@ -47,18 +47,18 @@ function images() {
         .pipe(dest('dist/images'))
 }
 
-// function svgsprite() {
-//     return src('app/images/svg/*.svg')
-//         .pipe(svgSprite({
-//             mode: {
-//                 stack: {
-//                     sprite: "../sprite.svg"  //sprite file name
-//                 }
-//             },
-//         }
-//         ))
-//         .pipe(dest('app/images'));
-// }
+function svgsprite() {
+    return src('app/images/svg/*.svg')
+        .pipe(svgSprite({
+            mode: {
+                stack: {
+                    sprite: "../sprite.svg"  //sprite file name
+                }
+            },
+        }
+        ))
+        .pipe(dest('app/images'));
+}
 
 function scripts() {
     return src([
@@ -135,8 +135,8 @@ exports.images = images;
 exports.cleanDist = cleanDist;
 exports.uploadToHosting = uploadToHosting;
 exports.deploy = deploy;
+exports.svgsprite = svgsprite;
 
-// exports.svgsprite = svgsprite;
 
 exports.buildToHosting = series(styles, scripts, cleanDist, images, build, uploadToHosting);
 exports.buildToHostingWithoutImg = series(styles, scripts, cleanDist, build, uploadToHosting);
